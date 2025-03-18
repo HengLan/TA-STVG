@@ -1,0 +1,58 @@
+OUTPUT_DIR: output/hcstvg2/
+DATA_DIR: data/hc-stvg2
+TENSORBOARD_DIR: output/hcstvg2/tensorboard
+
+INPUT:
+  RESOLUTION: 420
+  FLIP_PROB_TRAIN: 0.7
+  TEMP_CROP_PROB: 0.5
+  SAMPLE_FPS: 3.2
+
+MODEL:
+  WEIGHT: model_zoo/pretrained_resnet101_checkpoint.pth
+  VISION_BACKBONE:
+    NAME: resnet101
+    POS_ENC: sine
+  TEXT_MODEL:
+    NAME: roberta-base
+  TASTVG:
+    FROM_SCRATCH: True
+    USE_LEARN_TIME_EMBED: False
+    USE_ACTION: True
+
+DATASET:
+  NAME: HC-STVG
+  APP_NUM: 15
+  MOT_NUM: 60
+
+DATALOADER:
+  NUM_WORKERS: 8
+  ASPECT_RATIO_GROUPING: False
+
+SOLVER:
+  MAX_EPOCH: 90
+  BATCH_SIZE: 1
+  BBOX_COEF: 5
+  GIOU_COEF: 4
+  TEMP_COEF: 10
+  ATTN_COEF: 1
+  CONF_COEF: 1
+  CONF2_COEF: 1
+  CONF3_COEF: 1
+  CONF4_COEF: 1
+  ACTIONESS_COEF: 2
+  EOS_COEF: 0.3
+  SIGMA: 2.0
+  BASE_LR: 3e-4
+  TEXT_LR: 5e-5
+  VERB_LR: 5e-4
+  VIS_BACKBONE_LR: 5e-6
+  TEMP_LR: 2e-4
+  OPTIMIZER: adamw
+  VAL_PERIOD: 500
+  CHECKPOINT_PERIOD: 500
+  SHUFFLE: True
+  SCHEDULE:
+    TYPE: multistep_with_warmup
+    DROP_STEP: [50, 90]
+  PRE_VAL: False
