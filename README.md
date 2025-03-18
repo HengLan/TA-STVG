@@ -3,7 +3,7 @@
 [![PWC](https://img.shields.io/badge/State_of_the_Art-STVG_on_VidSTG-yellow?logo=AMP)](https://paperswithcode.com/sota/spatio-temporal-video-grounding-on-vidstg)
 
 # Knowing Your Target: Target-Aware Transformer Makes Better Spatio-Temporal Video Grounding
-🔮 Welcome to the official code repository for [**Knowing Your Target: Target-Aware Transformer Makes Better Spatio-Temporal Video Grounding**](https://arxiv.org/abs/2502.11168). We're excited to share our work with you, please bear with us as we prepare code. Stay tuned for the reveal!
+🔮 Welcome to the official code repository for [**Knowing Your Target: Target-Aware Transformer Makes Better Spatio-Temporal Video Grounding**](https://arxiv.org/abs/2502.11168). We're excited to share our work with you.
 
 ## Illustration of Idea
 💡 ***In the decoder procedure, object queries expect to
