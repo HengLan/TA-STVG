@@ -12,7 +12,7 @@ International Conference on Learning Representations (ICLR), 2025. (**Oral**) <b
 [[`arXiv`](https://arxiv.org/abs/2502.11168)]
 
 ## Illustration of Idea
-💡 ***Our Motivation:*** In the decoder procedure, object queries expect to
+💡 ***Motivation:*** In the decoder procedure, object queries expect to
 learn target position information from multimodal
 features. If object queries know the target from the
 very beginning, or in other words, they know what
