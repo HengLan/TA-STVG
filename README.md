@@ -5,9 +5,9 @@
 # Knowing Your Target: Target-Aware Transformer Makes Better Spatio-Temporal Video Grounding
 
 [**Knowing Your Target: Target-Aware Transformer Makes Better Spatio-Temporal Video Grounding**](https://arxiv.org/abs/2502.11168)<br>
-Xin Gu, Yaojie Shen, Chenxi Luo, Tiejian Luo, Yan Huang, Yuewei Lin, Heng Fan<sup>$\dagger$</sup>, Libo Zhang<sup>$\dagger$</sup> <br> ($\dagger$: equal advising)<br>
+Xin Gu, Yaojie Shen, Chenxi Luo, Tiejian Luo, Yan Huang, Yuewei Lin, Heng Fan<sup>$\dagger$</sup>, Libo Zhang<sup>$\dagger$</sup> <br> ($\dagger$: equal advising and co-last authors)<br>
 
-🔮 Welcome to the official code repository for [**Knowing Your Target: Target-Aware Transformer Makes Better Spatio-Temporal Video Grounding**](https://arxiv.org/abs/2502.11168). We're excited to share our work with you.
+🔮 Welcome to the official code repository for our TA-STVG. We're excited to share our work with you.
 
 ## Illustration of Idea
 💡 ***In the decoder procedure, object queries expect to
