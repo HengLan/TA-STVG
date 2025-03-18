@@ -12,14 +12,14 @@ International Conference on Learning Representations (ICLR), 2025. (**Oral**) <b
 [[`arXiv`](https://arxiv.org/abs/2502.11168)]
 
 ## Illustration of Idea
-💡 ***In the decoder procedure, object queries expect to
+💡 ***Our Motivation:*** In the decoder procedure, object queries expect to
 learn target position information from multimodal
 features. If object queries know the target from the
 very beginning, or in other words, they know what
 to learn, they can employ target-specific cues as a
 prior to guide themselves for better interaction with
 the multimodal features, which benefits learning
-more discriminative features for better localization.*** <br>
+more discriminative features for better localization.<br>
 
 ![TA-STVG](figures/idea.jpeg)
 **Figure:** Comparison between existing Transformer-based STVG methods applying zero-initialized
