@@ -173,10 +173,10 @@ This repo is partly based on the open-source release from [STCAT](https://github
 ## Citation
 ⭐ If you find this repository useful, please consider giving it a star and citing it:
 ```
-@article{gu2025knowing,
+@inproceedings{gu2025knowing,
   title={Knowing Your Target: Target-Aware Transformer Makes Better Spatio-Temporal Video Grounding},
   author={Gu, Xin and Shen, Yaojie and Luo, Chenxi and Luo, Tiejian and Huang, Yan and Lin, Yuewei and Fan, Heng and Zhang, Libo},
-  journal={arXiv preprint arXiv:2502.11168},
+  booktitle={International Conference on Learning Representations},
   year={2025}
 }
 ```
