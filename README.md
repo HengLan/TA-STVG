@@ -3,9 +3,8 @@
 [![PWC](https://img.shields.io/badge/State_of_the_Art-STVG_on_VidSTG-yellow?logo=AMP)](https://paperswithcode.com/sota/spatio-temporal-video-grounding-on-vidstg)
 
 # Knowing Your Target: Target-Aware Transformer Makes Better Spatio-Temporal Video Grounding
-International Conference on Learning Representations (ICLR), 2025. (**Oral**) <br>
 [**Knowing Your Target: Target-Aware Transformer Makes Better Spatio-Temporal Video Grounding**](https://arxiv.org/abs/2502.11168)<br>
-
+International Conference on Learning Representations (ICLR), 2025. (**Oral**) <br>
 Xin Gu, Yaojie Shen, Chenxi Luo, Tiejian Luo, Yan Huang, Yuewei Lin, Heng Fan<sup>$\dagger$</sup>, Libo Zhang<sup>$\dagger$</sup> <br> ($\dagger$: equal advising and co-last authors)<br>
 
 🔮 Welcome to the official code repository of our TA-STVG. We're excited to share our work with you.
